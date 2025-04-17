@@ -1,0 +1,32 @@
+.stats {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    border-top: 2px solid darkslategray;
+    width: 100%;
+}
+
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    width: calc(100%/3);
+    padding: 20px 50px;
+    border-right: 2px solid darkslategray;
+    
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.statistic {
+    font-weight: 700;
+}

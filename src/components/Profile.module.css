@@ -1,0 +1,28 @@
+.profile {
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+}
+
+img {
+    background-color: rgb(56, 53, 53);
+    border-radius: 50%;
+    max-width: 262px;
+}
+
+p {
+  font-size: 50px;
+  color: grey; 
+  margin: 0; 
+}
+
+.name {
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
