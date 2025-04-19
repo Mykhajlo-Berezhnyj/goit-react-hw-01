@@ -4,19 +4,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 10px;
-    border-radius: 20px;
+    gap: 0.8rem;
+    border-radius: 1.2em;
     border: 2px solid black;
 }
 
-img {
+.img-profile {
     background-color: rgb(56, 53, 53);
     border-radius: 50%;
     max-width: 262px;
 }
 
 p {
-  font-size: 50px;
+  font-size: 3.5em;
   color: grey; 
   margin: 0; 
 }

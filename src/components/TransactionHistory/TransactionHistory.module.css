@@ -1,0 +1,36 @@
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+thead {
+    background-color: rgba(0, 0, 0, 0.774);
+    color: whitesmoke;
+    font-size: 1.6em;
+    padding: 1em;  
+    height: 2.5em;
+}
+
+thead.th {
+    
+}
+
+th, td {
+    border: 2px solid black; 
+    text-align: center;
+}
+
+th {
+   width: calc(100%/3);
+}
+
+tbody td:nth-child(1) {
+padding-left: 1em;
+text-align: left;
+}
+
+tr:nth-child(2n) {
+    background-color: lightgray;
+}

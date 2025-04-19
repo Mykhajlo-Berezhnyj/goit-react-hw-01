@@ -1,0 +1,33 @@
+.friendListItem {
+width: 100%;
+border-radius: 0.8em;
+border: 2px solid black;
+padding: 0.8em;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: white;
+}
+
+.imgFriends {
+    width: 100%;
+}
+
+.friendName {
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+}
+
+.isOnline {
+font-size: 1.5em;
+font-weight: 600;
+color: green;
+}
+
+.offline {
+ font-size: 1.5em;
+ color: red;
+font-weight: 600;
+}
