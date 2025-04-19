@@ -1,11 +1,11 @@
 
-table {
+.table {
     width: 100%;
     border-collapse: collapse;
     border: 2px solid black;
 }
 
-thead {
+.thead {
     background-color: rgba(0, 0, 0, 0.774);
     color: whitesmoke;
     font-size: 1.6em;
@@ -13,24 +13,21 @@ thead {
     height: 2.5em;
 }
 
-thead.th {
-    
-}
 
-th, td {
+.th, .td {
     border: 2px solid black; 
     text-align: center;
 }
 
-th {
+.th {
    width: calc(100%/3);
 }
 
-tbody td:nth-child(1) {
+.tbody td:nth-child(1) {
 padding-left: 1em;
 text-align: left;
 }
 
-tr:nth-child(2n) {
+.tr:nth-child(2n) {
     background-color: lightgray;
 }
